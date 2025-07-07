@@ -1,7 +1,7 @@
-🏫 Campus Connect — Student Accommodation Made Simple
+# 🏫 Campus Connect — Student Accommodation Made Simple
 Campus Connect is a fullstack web application designed to simplify the process of finding student accommodations near college campuses. Whether you’re a student looking for a PG, hostel, flat, or mess — or an owner wanting to list your property — Campus Connect offers a secure and easy-to-use platform to connect both sides.
 
-🚀 Key Highlights
+# 🚀 Key Highlights
 👩‍🎓 For Students:
 ✅ Register/Login securely with JWT authentication
 🏫 Select your college from a dynamic dropdown (auto-fetches city)
@@ -9,14 +9,14 @@ Campus Connect is a fullstack web application designed to simplify the process o
 🗺️ Live map preview using Leaflet.js
 🔍 See details like price, type (mess/PG/hostel/flat), location, and contact info
 
-🧑‍💼 For Owners:
+# 🧑‍💼 For Owners:
 ✅ Register/Login securely with role-based access
 📝 Add new listings (title, type, price, coordinates, address)
 🎓 Associate listings with colleges
 📋 See your current listings with edit-ready data
 📍 Preview location on interactive maps
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Layer	Technology
 Frontend	React.js, Axios, Leaflet.js
 Backend	Node.js, Express.js, JWT
@@ -46,33 +46,33 @@ my_campus/
 ├── README.md
 └── .gitignore
 
-🔐 Authentication
+# 🔐 Authentication
 🔑 JSON Web Tokens (JWT) are used for secure session handling.
 🧠 Role-based access control (student, owner) is implemented.
 🔐 Passwords are hashed using bcrypt before storing in MySQL.
 
-🌐 Features In Action
+# 🌐 Features In Action
 ✅ Owner Dashboard: add listings, manage properties
 ✅ Student Dashboard: view nearby PG/hostel options
 ✅ Auto-college detection & filtering
 ✅ Leaflet map integration to visualize exact location
 
-🏁 How To Run Locally
-# 📦 Backend
+# 🏁 How To Run Locally
+📦 Backend
 cd backend
 npm install
 npm start
 
-# 🌐 Frontend
+🌐 Frontend
 cd frontend
 npm install
 npm start
 
-🧪 Future Improvements
+# 🧪 Future Improvements
 📸 Image uploads for listings
 🔍 Search and filter by price/type
 📱 Responsive design for mobile
 📨 Contact owner via in-app messaging
 
-🙌 Acknowledgments
+# 🙌 Acknowledgments
 This project was built to solve a real-world problem faced by students across India while shifting to new cities. Built from scratch using fullstack principles and clean architecture.
