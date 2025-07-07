@@ -1,0 +1,104 @@
+.student-register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5fafd; /* Very light, cool blue background */
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+}
+
+.student-register-container h2 {
+    color: #1a4d8c; /* Deep blue heading */
+    margin-bottom: 25px;
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+.student-register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 550px; /* Slightly wider for more inputs */
+    box-sizing: border-box;
+    border: 1px solid #e0e6ed;
+}
+
+.student-register-form input,
+.student-register-form select {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    margin-bottom: 18px;
+    border: 1px solid #cce0ff; /* Light blue border */
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.student-register-form input:focus,
+.student-register-form select:focus {
+    border-color: #4CAF50; /* Green focus highlight */
+    outline: none;
+    box-shadow: 0 0 6px rgba(76, 175, 80, 0.4);
+}
+
+.student-register-form button {
+    width: 100%;
+    padding: 13px;
+    background-color: #4CAF50; /* Green for success */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-register-form button:hover {
+    background-color: #45a049;
+}
+
+.login-note {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #607d8b; /* Blue-grey text */
+}
+
+.login-note a {
+    color: #1a73e8; /* Google blue link */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-note a:hover {
+    color: #1669c2;
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #d32f2f; /* Darker red for errors */
+    font-size: 0.88em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Specific styling for college select (optional) */
+.student-register-form select {
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007bff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13.2-6.4H18.8c-7.7%200-13.5%204.6-13.5%2012.3%200%205.1%203.2%209%207.9%2011.6l128%20128c3.2%203.2%207.1%204.6%2011.6%204.6s8.4-1.4%2011.6-4.6l128-128c4.6-2.6%207.9-6.5%207.9-11.6z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px; /* Make space for the arrow */
+}

@@ -1,0 +1,97 @@
+.owner-register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Very light grey background */
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.owner-register-container h2 {
+    color: #34495e; /* Dark slate blue heading */
+    margin-bottom: 25px;
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+.owner-register-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #e9ecef; /* Light border */
+}
+
+.owner-register-form input,
+.owner-register-form select {
+    width: calc(100% - 20px);
+    padding: 13px 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ced4da; /* Medium grey border */
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.owner-register-form input:focus,
+.owner-register-form select:focus {
+    border-color: #28a745; /* Green focus highlight */
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.4);
+}
+
+.owner-register-form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #28a745; /* Success green */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.owner-register-form button:hover {
+    background-color: #218838;
+}
+
+.login-note {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #6c757d; /* Darker grey */
+}
+
+.login-note a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-note a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #dc3545; /* Red for errors */
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .owner-register-form {
+        padding: 30px 25px;
+    }
+}
