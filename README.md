@@ -17,34 +17,16 @@ Campus Connect is a fullstack web application designed to simplify the process o
 📍 Preview location on interactive maps
 
 # 🛠️ Tech Stack
-Layer	Technology
-Frontend	React.js, Axios, Leaflet.js
-Backend	Node.js, Express.js, JWT
-Database	MySQL
-Maps	Leaflet.js (OpenStreetMap-based)
-Styling	CSS (handwritten, clean UI)
-
-📁 Folder Structure
-bash
-Copy
-Edit
-my_campus/
-│
-├── frontend/        # React.js frontend
-│   └── src/
-│       ├── pages/
-│       ├── components/
-│       └── App.jsx
-│
-├── backend/         # Node.js + Express API
-│   ├── controllers/
-│   ├── routes/
-│   ├── db.js
-│   ├── server.js
-│   └── middleware/
-│
-├── README.md
-└── .gitignore
+### Frontend	
+React.js, Axios, Leaflet.js
+### Backend	
+Node.js, Express.js, JWT
+### Database	
+MySQL
+### Maps	
+Leaflet.js (OpenStreetMap-based)
+### Styling	
+CSS (handwritten, clean UI)
 
 # 🔐 Authentication
 🔑 JSON Web Tokens (JWT) are used for secure session handling.
@@ -58,12 +40,12 @@ my_campus/
 ✅ Leaflet map integration to visualize exact location
 
 # 🏁 How To Run Locally
-📦 Backend
+### 📦 Backend
 cd backend
 npm install
 npm start
 
-🌐 Frontend
+### 🌐 Frontend
 cd frontend
 npm install
 npm start
