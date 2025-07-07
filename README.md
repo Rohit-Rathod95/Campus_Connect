@@ -1,63 +1,87 @@
 # 🏫 Campus Connect — Student Accommodation Made Simple
 
-Campus Connect is a fullstack web application designed to simplify the process of finding student accommodations near college campuses. 
-Whether you’re a student looking for a PG, hostel, flat, or mess — or an owner wanting to list your property — Campus Connect offers a secure and easy-to-use platform to connect both sides.
+**Campus Connect** is a fullstack web application built to streamline the process of finding accommodations near college campuses.  
+Whether you're a **student** looking for a **PG, hostel, flat, or mess**, or an **owner** wanting to **list your property**, Campus Connect offers a secure, map-based, and role-specific platform to connect both sides.
 
-# 🚀 Key Highlights
+---
 
-# 👩‍🎓 For Students:
-✅ Register/Login securely with JWT authentication
-🏫 Select your college from a dynamic dropdown (auto-fetches city)
-🏠 View accommodation listings filtered by your college
-🗺️ Live map preview using Leaflet.js
-🔍 See details like price, type (mess/PG/hostel/flat), location, and contact info
+## 🚀 Key Highlights
 
-# 🧑‍💼 For Owners:
-✅ Register/Login securely with role-based access
-📝 Add new listings (title, type, price, coordinates, address)
-🎓 Associate listings with colleges
-📋 See your current listings with edit-ready data
-📍 Preview location on interactive maps
+### 👩‍🎓 For Students
+- ✅ Secure registration/login using **JWT**
+- 🏫 Select your **college** from a dynamic dropdown (auto-detects city)
+- 🏠 View listings filtered by your college
+- 🗺️ **Live map preview** using Leaflet.js
+- 🔍 View details: price, type, address, contact info
 
-# 🛠️ Tech Stack
-### Frontend	
-React.js, Axios, Leaflet.js
-### Backend	
-Node.js, Express.js, JWT
-### Database	
-MySQL
-### Maps	
-Leaflet.js (OpenStreetMap-based)
-### Styling	
-CSS (handwritten, clean UI)
+### 🧑‍💼 For Owners
+- ✅ Secure role-based access
+- 📝 Add listings with title, type, price, location & address
+- 🎓 Associate listings with colleges
+- 📋 Manage your current listings
+- 📍 View properties with **interactive maps**
 
-# 🔐 Authentication
-🔑 JSON Web Tokens (JWT) are used for secure session handling.
-🧠 Role-based access control (student, owner) is implemented.
-🔐 Passwords are hashed using bcrypt before storing in MySQL.
+---
 
-# 🌐 Features In Action
-✅ Owner Dashboard: add listings, manage properties
-✅ Student Dashboard: view nearby PG/hostel options
-✅ Auto-college detection & filtering
-✅ Leaflet map integration to visualize exact location
+## 🛠️ Tech Stack
 
-# 🏁 How To Run Locally
+| Category    | Tech Used                       |
+|-------------|---------------------------------|
+| Frontend    | React.js, Axios, Leaflet.js     |
+| Backend     | Node.js, Express.js, JWT        |
+| Database    | MySQL                           |
+| Maps        | Leaflet.js (OpenStreetMap)      |
+| Styling     | Custom CSS                      |
+
+---
+
+## 🔐 Authentication & Security
+
+- 🔑 Secure sessions using **JWT (JSON Web Tokens)**
+- 🧠 **Role-based access control** (Student / Owner)
+- 🔒 Passwords hashed using **bcrypt**
+- 🔐 Protected backend routes with middleware
+
+---
+
+## 🌐 Features In Action
+
+- ✅ **Owner Dashboard** — add & manage property listings
+- ✅ **Student Dashboard** — view accommodations near your college
+- 🎯 **Auto-detection** of college & city
+- 🗺️ **Leaflet integration** to visualize property locations
+- 🔄 Realtime updates after listing submission
+
+---
+
+## 🏁 Getting Started (Run Locally)
+
 ### 📦 Backend
+```bash
 cd backend
 npm install
 npm start
+```
+
+---
 
 ### 🌐 Frontend
+```bash
 cd frontend
 npm install
 npm start
+```
 
-# 🧪 Future Improvements
-📸 Image uploads for listings
-🔍 Search and filter by price/type
-📱 Responsive design for mobile
-📨 Contact owner via in-app messaging
+---
 
-# 🙌 Acknowledgments
-This project was built to solve a real-world problem faced by students across India while shifting to new cities. Built from scratch using fullstack principles and clean architecture.
+## 🧪 Future Improvements
+- 📸 Image uploads for listings
+- 🔍 Filter by price/type
+- 📱 Fully responsive UI
+- 📨 In-app messaging/contacting owner
+
+## 🙌 Acknowledgments
+This project was built to solve a real-world problem faced by students across India while shifting to new cities.
+Crafted with fullstack technologies, clean architecture, and a focus on practical use cases.
+
+
