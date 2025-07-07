@@ -1,8 +1,11 @@
 # 🏫 Campus Connect — Student Accommodation Made Simple
-Campus Connect is a fullstack web application designed to simplify the process of finding student accommodations near college campuses. Whether you’re a student looking for a PG, hostel, flat, or mess — or an owner wanting to list your property — Campus Connect offers a secure and easy-to-use platform to connect both sides.
+
+Campus Connect is a fullstack web application designed to simplify the process of finding student accommodations near college campuses. 
+Whether you’re a student looking for a PG, hostel, flat, or mess — or an owner wanting to list your property — Campus Connect offers a secure and easy-to-use platform to connect both sides.
 
 # 🚀 Key Highlights
-👩‍🎓 For Students:
+
+# 👩‍🎓 For Students:
 ✅ Register/Login securely with JWT authentication
 🏫 Select your college from a dynamic dropdown (auto-fetches city)
 🏠 View accommodation listings filtered by your college
